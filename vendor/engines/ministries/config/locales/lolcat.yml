@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    ministries:
+      title: Ministries
+  admin:
+    ministries:
+      actions:
+        create_new: CREATE NEW Ministry
+        reorder: REORDR Ministries
+        reorder_done: DUN REORDERIN Ministries
+      records:
+        title: Ministries
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Ministries YET. CLICK "CREATE NEW Ministry" 2 ADD UR FURST ministry.
+      ministry:
+        view_live_html: VIEW DIS ministry LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS ministry
+        delete: REMOOV DIS ministry FOREVR
+  ministries:
+    show:
+      other: OTHR Ministries

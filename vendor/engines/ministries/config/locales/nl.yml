@@ -1,0 +1,21 @@
+nl:
+  plugins:
+    ministries:
+      title: Ministries
+  admin:
+    ministries:
+      actions:
+        create_new: Maak een nieuwe Ministry
+        reorder: Wijzig de volgorde van de Ministries
+        reorder_done: Klaar met het wijzingen van de volgorde van de Ministries
+      records:
+        title: Ministries
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Ministries. Druk op 'Maak een nieuwe Ministry' om de eerste aan te maken.
+      ministry:
+        view_live_html: Bekijk deze ministry op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze ministry
+        delete: Verwijder deze ministry voor eeuwig
+  ministries:
+    show:
+      other: Andere Ministries

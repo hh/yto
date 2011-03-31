@@ -1,0 +1,21 @@
+nb:
+  plugins:
+    ministries:
+      title: Ministries
+  admin:
+    ministries:
+      actions:
+        create_new: Lag en ny Ministry
+        reorder: Endre rekkefølgen på Ministries
+        reorder_done: Ferdig å endre rekkefølgen Ministries
+      records:
+        title: Ministries
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Ministries enda. Klikk på "Lag en ny Ministry" for å legge til din første ministry.
+      ministry:
+        view_live_html: Vis hvordan denne ministry ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne ministry
+        delete: Fjern denne ministry permanent
+  ministries:
+    show:
+      other: Andre Ministries

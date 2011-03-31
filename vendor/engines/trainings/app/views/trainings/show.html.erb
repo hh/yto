@@ -1,0 +1,63 @@
+<% content_for :body_content_title do %>
+  <%= @training.focus %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  <section>
+    <h1>Focus</h1>
+    <p>
+      <%=raw @training.focus %>
+    </p>
+  </section>
+  <section>
+    <h1>First Day</h1>
+    <p>
+      <%=raw @training.first_day %>
+    </p>
+  </section>
+  <section>
+    <h1>Last Day</h1>
+    <p>
+      <%=raw @training.last_day %>
+    </p>
+  </section>
+  <section>
+    <h1>Outreach Location</h1>
+    <p>
+      <%=raw @training.outreach_location %>
+    </p>
+  </section>
+  <section>
+    <h1>Webpage</h1>
+    <p>
+      <%=raw @training.webpage %>
+    </p>
+  </section>
+  <section>
+    <h1>Leader</h1>
+    <p>
+      <%=raw @training.leader %>
+    </p>
+  </section>
+  <section>
+    <h1>Description</h1>
+    <p>
+      <%=raw @training.description %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :body_content_right do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="trainings">
+      <% @trainings.each do |training| %>
+        <li>
+          <%= link_to training.focus, training_url(training) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

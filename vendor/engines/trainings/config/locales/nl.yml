@@ -1,0 +1,21 @@
+nl:
+  plugins:
+    trainings:
+      title: Trainings
+  admin:
+    trainings:
+      actions:
+        create_new: Maak een nieuwe Training
+        reorder: Wijzig de volgorde van de Trainings
+        reorder_done: Klaar met het wijzingen van de volgorde van de Trainings
+      records:
+        title: Trainings
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Trainings. Druk op 'Maak een nieuwe Training' om de eerste aan te maken.
+      training:
+        view_live_html: Bekijk deze training op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze training
+        delete: Verwijder deze training voor eeuwig
+  trainings:
+    show:
+      other: Andere Trainings

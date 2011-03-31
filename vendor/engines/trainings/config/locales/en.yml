@@ -1,0 +1,25 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    trainings:
+      title: Trainings
+  admin:
+    trainings:
+      actions:
+        create_new: Add New Training
+        reorder: Reorder Trainings
+        reorder_done: Done Reordering Trainings
+      records:
+        title: Trainings
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Trainings yet. Click "Add New Training" to add your first training.
+      training:
+        view_live_html: View this training live <br/><em>(opens in a new window)</em>
+        edit: Edit this training
+        delete: Remove this training forever
+  trainings:
+    show:
+      other: Other Trainings

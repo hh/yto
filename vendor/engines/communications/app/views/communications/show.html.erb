@@ -1,0 +1,39 @@
+<% content_for :body_content_title do %>
+  <%= @communication.title %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  <section>
+    <h1>Title</h1>
+    <p>
+      <%=raw @communication.title %>
+    </p>
+  </section>
+  <section>
+    <h1>Body</h1>
+    <p>
+      <%=raw @communication.body %>
+    </p>
+  </section>
+  <section>
+    <h1>Excerpt</h1>
+    <p>
+      <%=raw @communication.excerpt %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :body_content_right do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="communications">
+      <% @communications.each do |communication| %>
+        <li>
+          <%= link_to communication.title, communication_url(communication) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

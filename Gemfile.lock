@@ -1,3 +1,10 @@
+PATH
+  remote: vendor/engines
+  specs:
+    refinerycms-communications (1.0)
+    refinerycms-ministries (1.0)
+    refinerycms-trainings (1.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -147,5 +154,8 @@ DEPENDENCIES
   aws-s3
   rails (= 3.0.5)
   refinerycms (= 0.9.9.13)
+  refinerycms-communications (= 1.0)!
   refinerycms-i18n (~> 0.9.9.16)
+  refinerycms-ministries (= 1.0)!
+  refinerycms-trainings (= 1.0)!
   sqlite3

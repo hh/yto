@@ -1,0 +1,25 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    ministries:
+      title: Ministries
+  admin:
+    ministries:
+      actions:
+        create_new: Add New Ministry
+        reorder: Reorder Ministries
+        reorder_done: Done Reordering Ministries
+      records:
+        title: Ministries
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Ministries yet. Click "Add New Ministry" to add your first ministry.
+      ministry:
+        view_live_html: View this ministry live <br/><em>(opens in a new window)</em>
+        edit: Edit this ministry
+        delete: Remove this ministry forever
+  ministries:
+    show:
+      other: Other Ministries

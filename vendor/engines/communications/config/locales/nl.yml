@@ -1,0 +1,21 @@
+nl:
+  plugins:
+    communications:
+      title: Communications
+  admin:
+    communications:
+      actions:
+        create_new: Maak een nieuwe Communication
+        reorder: Wijzig de volgorde van de Communications
+        reorder_done: Klaar met het wijzingen van de volgorde van de Communications
+      records:
+        title: Communications
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Communications. Druk op 'Maak een nieuwe Communication' om de eerste aan te maken.
+      communication:
+        view_live_html: Bekijk deze communication op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze communication
+        delete: Verwijder deze communication voor eeuwig
+  communications:
+    show:
+      other: Andere Communications

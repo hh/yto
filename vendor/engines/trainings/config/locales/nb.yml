@@ -1,0 +1,21 @@
+nb:
+  plugins:
+    trainings:
+      title: Trainings
+  admin:
+    trainings:
+      actions:
+        create_new: Lag en ny Training
+        reorder: Endre rekkefølgen på Trainings
+        reorder_done: Ferdig å endre rekkefølgen Trainings
+      records:
+        title: Trainings
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Trainings enda. Klikk på "Lag en ny Training" for å legge til din første training.
+      training:
+        view_live_html: Vis hvordan denne training ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne training
+        delete: Fjern denne training permanent
+  trainings:
+    show:
+      other: Andre Trainings

@@ -10,7 +10,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110330220915) do
+ActiveRecord::Schema.define(:version => 20110331002001) do
+
+  create_table "communications", :force => true do |t|
+    t.string   "title"
+    t.text     "body"
+    t.string   "excerpt"
+    t.integer  "position"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "communications", ["id"], :name => "index_communications_on_id"
 
   create_table "images", :force => true do |t|
     t.string   "image_mime_type"
@@ -23,6 +34,21 @@ ActiveRecord::Schema.define(:version => 20110330220915) do
     t.string   "image_uid"
     t.string   "image_ext"
   end
+
+  create_table "ministries", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "location"
+    t.string   "webpage"
+    t.string   "phone"
+    t.string   "email"
+    t.integer  "image_id"
+    t.integer  "position"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "ministries", ["id"], :name => "index_ministries_on_id"
 
   create_table "page_part_translations", :force => true do |t|
     t.integer  "page_part_id"
@@ -133,6 +159,21 @@ ActiveRecord::Schema.define(:version => 20110330220915) do
   add_index "slugs", ["locale"], :name => "index_slugs_on_locale"
   add_index "slugs", ["name", "sluggable_type", "scope", "sequence"], :name => "index_slugs_on_n_s_s_and_s", :unique => true
   add_index "slugs", ["sluggable_id"], :name => "index_slugs_on_sluggable_id"
+
+  create_table "trainings", :force => true do |t|
+    t.string   "focus"
+    t.date     "first_day"
+    t.date     "last_day"
+    t.string   "outreach_location"
+    t.string   "webpage"
+    t.string   "leader"
+    t.text     "description"
+    t.integer  "position"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "trainings", ["id"], :name => "index_trainings_on_id"
 
   create_table "user_plugins", :force => true do |t|
     t.integer "user_id"

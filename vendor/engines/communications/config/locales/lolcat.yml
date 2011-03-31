@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    communications:
+      title: Communications
+  admin:
+    communications:
+      actions:
+        create_new: CREATE NEW Communication
+        reorder: REORDR Communications
+        reorder_done: DUN REORDERIN Communications
+      records:
+        title: Communications
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Communications YET. CLICK "CREATE NEW Communication" 2 ADD UR FURST communication.
+      communication:
+        view_live_html: VIEW DIS communication LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS communication
+        delete: REMOOV DIS communication FOREVR
+  communications:
+    show:
+      other: OTHR Communications

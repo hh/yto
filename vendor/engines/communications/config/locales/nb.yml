@@ -1,0 +1,21 @@
+nb:
+  plugins:
+    communications:
+      title: Communications
+  admin:
+    communications:
+      actions:
+        create_new: Lag en ny Communication
+        reorder: Endre rekkefølgen på Communications
+        reorder_done: Ferdig å endre rekkefølgen Communications
+      records:
+        title: Communications
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Communications enda. Klikk på "Lag en ny Communication" for å legge til din første communication.
+      communication:
+        view_live_html: Vis hvordan denne communication ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne communication
+        delete: Fjern denne communication permanent
+  communications:
+    show:
+      other: Andre Communications
